@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { creditsMovie } from "../../services/api";
 import { useEffect, useState } from "react";
-import Loader from "../Loader/Loader";
+import Loader from "../Loader/Loading";
 import Error from "../Error/Error";
 import placeholder from "../../assets/placeholder.png";
 import s from "./MovieCast.module.css";

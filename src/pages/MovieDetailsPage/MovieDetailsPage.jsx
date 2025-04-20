@@ -1,7 +1,7 @@
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { detailsMovie } from "../../services/api";
 import { Suspense, useEffect, useState } from "react";
-import Loader from "../../components/Loader/Loader";
+import Loader from "../../components/Loader/Loading";
 import Error from "../../components/Error/Error";
 import placeholder from "../../assets/placeholder.png";
 import s from "./MovieDetailsPage.module.css";

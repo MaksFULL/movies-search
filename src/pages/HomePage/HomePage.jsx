@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import MovieList from "../../components/MovieList/MovieList";
 import s from "./HomePage.module.css";
 import Error from "../../components/Error/Error";
-import Loader from "../../components/Loader/Loader";
+import Loader from "../../components/Loader/Loading";
 
 const HomePage = () => {
   const [list, setList] = useState(null);

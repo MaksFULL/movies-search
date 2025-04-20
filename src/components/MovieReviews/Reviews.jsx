@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { reviewsMovie } from "../../services/api";
-import Loader from "../Loader/Loader";
+import Loader from "../Loader/Loading";
 import Error from "../Error/Error";
 import s from "./MovieReviews.module.css";
 import { MdPerson } from "react-icons/md";

@@ -3,7 +3,7 @@ import MovieList from "../../components/MovieList/MovieList";
 import { searchMovie } from "../../services/api";
 import { useSearchParams } from "react-router-dom";
 import Error from "../../components/Error/Error";
-import Loader from "../../components/Loader/Loader";
+import Loader from "../../components/Loader/Loading";
 import Buttons from "../../components/Buttons/Buttons";
 import s from "./MoviePage.module.css";
 

@@ -1,5 +1,5 @@
 import { NavLink, useNavigate } from "react-router-dom";
-import s from "./Navigation.module.css"; // Убедись, что этот файл существует
+import s from "./Navigation.module.css"; 
 import clsx from "clsx";
 import { MdLocalMovies } from "react-icons/md";
 

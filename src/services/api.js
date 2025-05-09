@@ -13,7 +13,7 @@ const options = {
     accept: "application/json",
   },
   params: {
-    language: "uk-UA",
+    language: "en-US",
   },
 };
 
